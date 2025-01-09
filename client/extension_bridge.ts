@@ -17,6 +17,7 @@ import type {IAssignmentItem, IEditorFieldProps, IPlanningAppState, IPlanningIte
 import type {IPropsAttachmentsEditorStandalone} from './components/AttachmentsInputStandalone.interface';
 import type {IPropsEditorFieldCoverages} from './components/fields/editor/coverages.interface';
 import type {IEditorFieldLocationProps} from './components/fields/editor/Location';
+import {registerEditorField} from './components/fields/resources/registerEditorFields';
 
 // KEEP IN SYNC WITH client/planning-extension/src/extension_bridge.ts
 interface IExtensionBridge {
